@@ -1,4 +1,39 @@
-.hw{
-    font-size: 5em;
+/* website font type */
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* Nav Logo */
+.logoimg{
+    width: 90px;
+}
+
+/* tagline block */
+.tag{
+    color: black;
     text-align: center;
+    font-size: 70px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+/* message header */
+.message h1{
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* message statement */
+.message p{
+    color: black;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+/* breakfast lunch dinner dessert picture */
+.food{
+    padding-top: 50px;
+    width: 90px;
 }
