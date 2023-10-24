@@ -1,11 +1,18 @@
 /* website font type */
 body{
     font-family: "Roboto", sans-serif;
+    /* background-image: url(/assets/lpbackground.png); */
+}
+
+.lpbg{
+    height: 100vh;
+    z-index: -1;
+    width: 100%;
 }
 
 /* Nav Logo */
 .logoimg{
-    width: 90px;
+    width: 50px;
 }
 
 /* tagline block */
@@ -13,27 +20,34 @@ body{
     color: black;
     text-align: center;
     font-size: 70px;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 /* message header */
 .message h1{
     color: black;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* message statement */
 .message p{
     color: black;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 /* breakfast lunch dinner dessert picture */
 .food{
     padding-top: 50px;
     width: 90px;
+    padding-bottom: 5%;
+}
+
+/* purpose pic */
+.lppic{
+    width: 55%;
+    
 }
