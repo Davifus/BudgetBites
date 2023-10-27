@@ -1,6 +1,7 @@
 /* website font type */
 body{
     font-family: "Roboto", sans-serif;
+    
     /* background-image: url(/assets/lpbackground.png); */
 }
 
@@ -51,3 +52,4 @@ body{
     width: 55%;
     
 }
+

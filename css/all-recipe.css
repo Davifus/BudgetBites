@@ -1,18 +1,14 @@
 /* website font type */
 body{
     font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Nav Logo */
 .logoimg{
     width: 50px;
-}
-
-footer{
-    position: fixed;
-    height: 100px;
-    bottom: 0;
-    width: 100%;
 }
 
 .foodbox{   
