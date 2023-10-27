@@ -18,3 +18,17 @@ footer{
 .foodbox{   
     height: 250px;
 }
+
+/* 5 star rating */
+.ratings i{   
+    color:#cecece;
+    font-size:19px;
+}
+
+.rating-color{
+    color:#fbc634 !important;
+}
+
+
+
+
