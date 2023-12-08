@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="/css/all-recipe.css">
     <!-- boostrap icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> 
+    <!-- Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="/js/cookbook.js"></script>
     <title>Find your next meal!</title>
 </head>
 <body>
@@ -42,6 +45,7 @@
     <div class="container text-center mt-5">
         <div class="foodbox row align-items-start">
 
+            <!-- This for Phase 2 -->
             <div class="col-md-4">
                 <div class="shadow rounded">
                 <div class="card">
@@ -69,32 +73,48 @@
                 </div>
             </div>
 
-
             </div>
+
+
+
+            <!-- This for Phase 3 -->
             <div class="col-md-4 ">
                 <div class="shadow rounded">
                 <div class="card">
-                    <img src="/assets/CI0103_Classic-Deviled-Eggs.jpg" class="card-img-top" style="max-width: 420px;">
+                    <img src="/assets/carne_taco.jpg" class="card-img-top" style="max-width: 420px;">
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Food title</h5>
-                        <p class="card-text text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet consectetur vulputate. Morbi ac tellus vehicula</p>
+                        <h5 class="card-title fw-bold" id="foodTitle">Food title</h5>
+                        <p class="card-text text-truncate" id="foodDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet consectetur vulputate. Morbi ac tellus vehicula</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Lunch</li>
-                        <li class="list-group-item">TIME</li>
-                        <li class="list-group-item">Difficulty: STAR</li>
-                        <a href="#" class="stretched-link"></a>
+                        <li class="list-group-item" id="foodType">Lunch</li>
+                        <li class="list-group-item" id="foodTime">TIME</li>
+                        <li class="list-group-item"> 
+                            <!-- 5 star rating -->
+                            <div class="ratings">
+                                Difficulty:
+                                <i class="bi bi-star rating-color"></i>
+                                <i class="bi bi-star rating-color"></i>
+                                <i class="bi bi-star rating-color"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
 
             </div>
+
+            <!-- An empty card for reference -->
             <div class="col-md-4">
                 <div class="shadow rounded">
                 <div class="card">
                     <img src="/assets/CI0103_Classic-Deviled-Eggs.jpg" class="card-img-top" style="max-width: 420px;">
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Food title</h5>
+                        <h5 class="card-title fw-bold" id="foodTitle">Food title</h5>
+                        
                         <p class="card-text text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet consectetur vulputate. Morbi ac tellus vehicula</p>
                     </div>
                     <ul class="list-group list-group-flush">
@@ -110,6 +130,9 @@
         </div>
     </div>
 
+    <div id="res">
+
+    </div>
 
 
 <!-- Bootstrap JS + Popper -->
