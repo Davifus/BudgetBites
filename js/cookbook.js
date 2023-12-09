@@ -50,9 +50,10 @@
         getDataById(idValue);
 
 
-
-
-        
+/* tooltip */
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
 
 
 
