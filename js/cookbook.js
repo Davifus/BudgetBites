@@ -1,40 +1,3 @@
-/* Get using axios based on assignment 2 test */
-/* axios.get('https://dp8v6pzap0.execute-api.us-east-2.amazonaws.com/dev')
-        .then(function (response) {
-            // handle success
-
-            const obj = response.data;
-            const bObj = obj.body
-            const bObb = JSON.parse(bObj);
-
-            console.log(bObb);
-            
-            const {average} = bObb[2];
-
-            console.log(average);
-            
-            document.getElementById("foodTitle").innerHTML = average;
-            
-            
-            document.getElementById("foodDescription").innerHTML = 
-            document.getElementById("foodType").innerHTML = 
-            document.getElementById("foodTime").innerHTML = 
-            document.getElementById("serveSize").innerHTML = 
-            document.getElementById("foodIngredients").innerHTML =
-            document.getElementById("foodEquipments").innerHTML =
-            document.getElementById("foodInstructions").innerHTML =
-        
-            
-        })
-        .catch(function (error) {
-
-            console.log(error);
-        })
-        .finally(function () {
-            
-        }); */
-
-
 
         /* get fetch method */
         async function getDataById(id) {
@@ -85,6 +48,11 @@
         
           const idValue = '1'; // Replace '2' with the actual ID
         getDataById(idValue);
+
+
+
+
+        
 
 
 
