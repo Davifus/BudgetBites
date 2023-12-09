@@ -45,8 +45,10 @@
             <div class="card mb-3 mt-5 mx-auto" style="max-width: 840px;">
                 <div class="shadow-lg">
                     <div class="row justify-content-center">
-                        <div class="col-md-8">
+                        <div class="col-md-8">                            
                             <div class="card-body">
+                                <h1 class="fw-bold text-center">ADD RECIPE</h1>
+                                <hr>
                                 <div class="form-floating mb-3 mt-3">
                                     <input type="text" class="form-control" id="addTitle">
                                     <label for="email">Food Title</label>
@@ -81,6 +83,10 @@
                                 <div class="form-floating mt-3 mb-3">                                    
                                     <textarea class="form-control" id="addInstruction" rows="3"></textarea>
                                     <label for="" class="form-label">Instruction</label>
+                                </div>
+                                <div class="form-floating mt-3 mb-3">                                    
+                                    <input class="form-control" type="file" id="addPicture">
+                                    <label for="" class="form-label">Add picture for recipe</label>
                                 </div>
                                 <button class="btn bg-primary float-lg-end mb-4 text-white" id="submitRecipe">Submit</button>
                             </div>
