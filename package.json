@@ -1,0 +1,25 @@
+{
+  "name": "budgetbites",
+  "version": "1.0.0",
+  "description": "A Cookbook for Cloud Software Developement SWE 4633",
+  "main": "cookbook.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davifus/BudgetBites.git"
+  },
+  "keywords": [
+    "bbites"
+  ],
+  "author": "Geonhyeong Kim",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Davifus/BudgetBites/issues"
+  },
+  "homepage": "https://github.com/Davifus/BudgetBites#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
